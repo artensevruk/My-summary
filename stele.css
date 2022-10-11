@@ -1,49 +1,113 @@
-body{ background-image: url(laptop.jpg);
-color :  azure;
+body{ background-image: url(5.jpg);
+    height:  50px ;
+color :  rgb(7, 7, 9);
 
-font-size: 16px ;
+font-size: 15px ;
 font-weight: normal;
 font-family :'Roboto', sans-serif;
- width: 37%;
+ width: 50%;
  margin: auto;
 }
 a{
-color: firebrick;
+color: rgb(7, 6, 10);
 text-decoration: none;
-
-
 }
+
+
+.sot{width: 20%;}
+.sot2{width: 7%;}
+
 
 a:hover {
 text-decoration : underline
-
+ 
 }
  
-a:active {
-color: darkgoldenrod
-
+.artem {font-family: initial;
+    font-size:xx-large;
+    margin-left: -150px
+    
 }
 
 
-.avatar{width: 200px;
-border-radius: 28px;  
+.h1 {margin-left: -20px; font-weight:bolder;
+   
+
+}
+
+.h2 {margin-left: 100px; font-weight:bolder;
+
+}
+
+.SS{width: 250px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    background-image: linear-gradient(Grey , rgb(181, 187, 140));
+    font-family: system-ui;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    margin-left: -20px;  font-weight:bolder;
+    
+}
+.SS:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 90px rgba(219, 204, 37, 0.4);
+
+}
+.h4 {width: 250px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    background-image: linear-gradient(grey, rgb(194, 205, 124));
+    font-family: system-ui;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+
+    margin-left: 105px;  font-weight:bolder;
+    
+}
+.h4:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 90px rgba(219, 204, 37, 0.4);
+
+}
+.avatar   {margin-left: -330px;
+    width: 230px;
+border-radius: 80px;  
 box-shadow: 4px 4px 14px rgba(0, 0 , 0, 0, 25);     }
 
-.info {color: black;
-margin: 0;
-font-style:italic;
-font-weight: bold;
- margin: auto ;
- padding: 15px;
+.avatar:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 90px rgba(219, 204, 37, 0.4);
+
 }
 
-.car {color: black;
+
+
+
+.car {
+    
+    background-blend-mode: color  ;
+    animation-direction: inherit;
+    color: black;
     font-weight: bold;
     padding: 15px;
-    background-color: ;
 
 
 }
+
+
+
+
+
+
 
 .sss {color:black ;
     font-weight: bold;
@@ -51,4 +115,18 @@ font-weight: bold;
 
 }
 
+.otstup {
+    margin-left : 60px;
 
+}
+
+.otstup:hover {
+    transform: scale(1.1);  
+
+}
+
+
+.otstup2:hover {
+    transform: scale(1.1);
+
+}
